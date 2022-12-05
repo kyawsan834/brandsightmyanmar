@@ -1,0 +1,41 @@
+{
+  "name": "daisyjs",
+  "version": "1.0.0",
+  "description": "Web animation javascript plugin for beautiful background particle systems. The Maintained and LTS version of popular Particleground.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarenGonzaga/daisy.js.git"
+  },
+  "keywords": [
+    "momoland",
+    "javascript",
+    "js",
+    "animations",
+    "particle",
+    "plugin"
+  ],
+  "author": "Waren Gonzaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WarenGonzaga/daisy.js/issues"
+  },
+  "homepage": "https://github.com/WarenGonzaga/daisy.js#readme",
+  "demo": "https://daisyjs.warengonzaga.com/",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-header": "^2.0.9",
+    "gulp-jshint": "^2.1.0",
+    "gulp-options": "^1.1.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.11.0",
+    "jshint-stylish": "^2.2.1",
+    "readable-stream": "^3.5.0"
+  },
+  "dependencies": {}
+}

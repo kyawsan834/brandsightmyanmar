@@ -1,0 +1,8 @@
+parallax effect 1 
+https://www.cssscript.com/lightweight-vanilla-javascript-parallax-library-rellax/
+
+parallax effect 2
+https://www.cssscript.com/interactive-parallax-tilt-effect-vanilla-javascript-vanilla-tilt-js/#google_vignette
+
+mouse followr effect 
+https://www.jqueryscript.net/other/Element-Follow-Mouse-jQuery-mouseFollower.html
