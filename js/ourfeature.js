@@ -17,31 +17,6 @@ $(document).ready(function () {
 
     // Start Header Section
 
-    //Start Banner Section
-
-    $('.carousel').carousel({
-        interval: 1500
-    })
-
-    //End Banner Section
-
-    // Start Typed Js
-
-    var typed = new Typed("#banner-h2",{
-        strings :[
-            "Welcome From Brand Sight Myanmar.",
-            "We are Digital Marketing Agency.",
-            "Your brand is our priority.",
-            ""
-        ],
-        typeSpeed: 150,
-        backSpeed: 45,
-        loop: true,
-    });
-    
-   
-
-    // End Typed Js
 
     // Start fixedtop
     // $(".btn-backtotops").hide();
@@ -112,31 +87,6 @@ $(document).ready(function () {
     // var rellax = new Rellax('.rellax');
 
     // End who we are section
-
-
-
-    window.addEventListener( 'load', function() {
-        var box = document.getElementById('animate'),
-            docHeight = document.documentElement.offsetHeight;
-            console.log(docHeight);
-        
-        window.addEventListener( 'scroll', function() {
-              // normalize scroll position as percentage
-          var scrolled = window.scrollY / ( docHeight - window.innerHeight ),
-              transformValue = 'scale('+scrolled+')';
-      
-          box.style.WebkitTransform = transformValue;
-          box.style.MozTransform = transformValue;
-          box.style.OTransform = transformValue;
-          box.style.transform = transformValue;
-          
-        }, false);
-        
-      }, false);
-
-      setTimeout(function(){
-        $("#preloader").fadeToggle();
-      }, 3600);
 
     //   let preloader = document.getElementById("#preloader");
     //   window.addEventListener("load",function(){
@@ -237,15 +187,4 @@ $(document).ready(function () {
 
     });
     // End Progress
-
-    // Start animation
-
-
-
-
-
-
-
-
-
 });

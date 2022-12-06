@@ -4,6 +4,7 @@
 <head>
 
   <title>Brand Sight Myanmar</title>
+  <meta charset="UTF-8">
   <link href="./assets/img/logo/logo.png" rel="icon" type="image/png" sizes="16x16">
   <!-- bootstrap css1 js1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -26,12 +27,17 @@
   <!-- custom css -->
   <link href="./css/style.css" rel="stylesheet" type="text/css"/>
 
+  <!-- responsive css -->
+  <link href="./css/responsive.css" rel="stylesheet" type="text/css"/>
+
   
 </head>
 
 
 
 <body>
+
+ 
 
   
 
@@ -43,6 +49,7 @@
     <span id="progressvalues">0%</span>
   </div>
   <!-- End Progress -->
+
 
   <!-- Start Header Section -->
   <header>
@@ -82,17 +89,17 @@
     </section> -->
     <!-- End Header Intro Section -->
     <!--Start Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbs ">
+    <nav class="navbar navbar-expand-lg navbs ">
       <div class="container">
 
         <a href="index.html"><img src="./assets/img/logo/logo.png" width="50px" ; alt="site-logo"></a>
-        <a href="index.html" class="navbar-brand fw-blod"><span class="brand-texts">Brand Sight Myanmar</span> </a>
+        <a href="index.html" class="navbar-brand  fw-blod"><span class="brand-texts">Brand Sight Myanmar</span> </a>
 
         <div class="navbar-toggler" data-bs-target="#mynav" data-bs-toggle="collapse">
           <span class="navbar-toggler-icon"></span>
         </div>
 
-        <div id="mynav" class="navbar-collapse collapse">
+        <div id="mynav" class="navbar-collapse collapse mynav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
             <li class="nav-item"><a href="feature.html" class="nav-link">Feature</a></li>
@@ -309,7 +316,7 @@
         <div class="col-md-4 col-sm-12 mb-5">
 
           <div class="iconboxes">
-            <div class="icons"><i class="fa-solid fa-hand-holding-medical fa-2x"></i></div>
+            <div class="icons"><i class="fa-solid fa-magnifying-glass-chart fa-2x"></i></div>
             <h4>Social Media Marketing</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
               industry's standard dummy text ever </p>
@@ -320,7 +327,7 @@
         <div class="col-md-4 col-sm-12 mb-5">
 
           <div class="iconboxes">
-            <div class="icons"><i class="fa-solid fa-money-bill-trend-up fa-2x"></i></div>
+            <div class="icons"><i class="fa-solid fa-chess-queen fa-2x"></i></div>
             <h4>Strategic Planning</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
               industry's standard dummy text ever </p>
@@ -331,7 +338,7 @@
         <div class="col-md-4 col-sm-12 mb-5">
 
           <div class="iconboxes">
-            <div class="icons"><i class="fa-solid fa-hand-holding-dollar fa-2x"></i></div>
+            <div class="icons"><i class="fa-solid fa-code fa-2x"></i></div>
             <h4>Website Apps Development</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
               industry's standard dummy text ever </p>
@@ -524,7 +531,7 @@
 
             <div>
                 <div class="row">
-                    <div class="col-md-12 mb-3">
+                    <div class="col-md-12 col-12 mb-3">
                         <ul class="clientlists">
                             <li><img src="./assets/img/client/01.png" alt="clients1"></li>
                             <li><img src="./assets/img/client/02.png" alt="clients2"></li>
@@ -534,7 +541,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-12 mb-3">
+                    <div class="col-md-12 col-12 mb-3">
                       <ul class="clientlists">
                           <li><img src="./assets/img/client/06.png" alt="clients1"></li>
                           <li><img src="./assets/img/client/07.png" alt="clients2"></li>
@@ -544,7 +551,7 @@
                       </ul>
                   </div>
 
-                  <div class="col-md-6 mx-auto mb-3">
+                  <div class="col-md-6 col-sm-6 mx-auto mb-3">
                     <ul class="clientlists">
                         <li><img src="./assets/img/client/11.png" alt="clients1"></li>
                         <li><img src="./assets/img/client/12.png" class="img12" alt="clients2"></li>
@@ -684,7 +691,7 @@
             <p class="lead">Get answers and advice from people you want it from.</p>
           </div>
         </div>
-        CALL NOW(+95) 5859-9214
+        <p class="h4">CALL NOW(+95) 5859-9214</p>
         <div>
           <a href="tel:09422042225" class="btn btn-calls"> Call Now <i class="fas fa-phone"></i></i></a>
         </div>
@@ -873,7 +880,8 @@
 
 
   <!-- Start Footer Section -->
-  <footer class="px-5 footerbgs">
+  <footer class="px-5 footerbgs"> 
+
     <div class="container-fluid">
       <div class="row text-light py-4">
 
